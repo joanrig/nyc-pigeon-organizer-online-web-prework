@@ -7,8 +7,9 @@ def nyc_pigeon_organizer(data)
   #name = pigeon name
   
   data.each do |attrib_key, attrib_hash|
-    attrib_hash.each do |attrib_val, array|
-      array.each do |pigeon|
+    attrib_hash.each do |attrib_val|
+      attrib_val.each do |array|
+        array.each do |pigeon|
       
   #gives new hash 7 keys, each with pigeon name    
         if !pigeons_list.has_key?(pigeon)
