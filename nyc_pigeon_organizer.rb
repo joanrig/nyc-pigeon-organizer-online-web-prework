@@ -19,7 +19,7 @@ def nyc_pigeon_organizer(data)
         
   #gives each pigeon 3 attrib_keys, color, gender, lives
         if !pigeons_list.has_key?(attrib_key)
-          pigeons_list[pigeon][attrib_key] ||= []
+          pigeons_list[pigeon][attrib_key] << []
         end
         
   #tries to populate each attrib key with attrib values, entering values as strings .. BUT -- ? -- if pigeon has 2 colors, only one is captured.
