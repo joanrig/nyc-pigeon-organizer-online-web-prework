@@ -1,3 +1,5 @@
+"require pry"
+
 def nyc_pigeon_organizer(data)
   pigeons_list = {}
 
@@ -29,5 +31,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   pigeons_list
+  binding.pry
 end
   
