@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do |attrib_key, attrib_hash|
     attrib_hash.each do |attrib_val|
-      attrib_val.to_s each do |array|
+      attrib_val.to_s map do |array|
         array.each do |pigeon|
       
   #gives new hash 7 keys, each with pigeon name    
