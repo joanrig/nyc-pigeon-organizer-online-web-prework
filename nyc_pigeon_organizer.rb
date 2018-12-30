@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   pigeons_list = {}
-​
+
   #attrib_key = color or gender or lives
   #attrib_val = ie: purple or male or subway
   #array = array of pigeon names
@@ -30,4 +30,5 @@ def nyc_pigeon_organizer(data)
   end
   pigeons_list
 end
+
   
