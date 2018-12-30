@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
   
         pigeons_list[pigeon][attrib_key] << attrib_val.to_s
         
-          
+      end    
     end
   end
   pigeons_list
