@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
     attrib_hash.each do |attrib_val, array|
       array.each do |pigeon|
         pigeons_list[pigeon] ||= {}
-        pigeons_list[pigeon][attrib_key] = []
+        pigeons_list[pigeon][attrib_key] ||= []
         pigeons_list[pigeon][attrib_key] << attrib_val.to_s
       end    
     end
